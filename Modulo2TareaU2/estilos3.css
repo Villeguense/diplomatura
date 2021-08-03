@@ -1,0 +1,25 @@
+.contenedor {
+    display: flex;
+    max-height: fit-content;
+    flex-direction:row;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    justify-content: space-between;    
+}
+.item {
+    height: 200px; width: 200px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;    
+}
+.item:nth-child(1) {
+    background-color: red; color: white;
+}
+.item:nth-child(2) {
+    background-color: blue; color: white;
+}
+.item:nth-child(3) {
+    background-color: green; color: white;
+}
